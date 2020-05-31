@@ -13,11 +13,12 @@ function cards_container()
     const fikretYuksekLogo = require("../assets/fikretyuksel.jpg");
     const imgSize = 250;
 
+  
    
     return(
 <Container>
 
-  <Row> 
+  <Row > 
     <Col md={4}>
       <Card>
         <Card.Img variant="top" src={logoImg}
@@ -26,28 +27,26 @@ function cards_container()
         <Card.Body>
           <Card.Title>Our Vision</Card.Title>
            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-          </Card.Text>
+           Fusion Robotics is a team gathered under STEM, moving forward on its goals and dreams. 
+           With your support, we will be engineers, business people, scientists of the future.          </Card.Text>
     
         </Card.Body>
       </Card>
      </Col>
         
         <Col md={4}>
-
-        <Card>
-  <Card.Img variant="top" src={frcLogo} width={imgSize}
-            height={imgSize} />
-  <Card.Body>
-    <Card.Title>FIRST Robotics</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    
-  </Card.Body>
-        </Card>
+          <Card>
+            <Card.Img variant="top" src={frcLogo} width={imgSize}
+                      height={imgSize} />
+            <Card.Body>
+                <Card.Title>FIRST Robotics</Card.Title>
+                <Card.Text>
+                The FIRST Robotics Competition (FRC) is an international high school robotics competition. 
+                Each year, teams of high school students, coaches, and mentors work during a six-week period 
+                to build robots capable of competing in that year's game that weigh up to 125 pounds (57 kg).
+                </Card.Text>
+            </Card.Body>
+          </Card>
         </Col>
 
         <Col md={4}>
@@ -58,8 +57,8 @@ function cards_container()
   <Card.Body>
     <Card.Title>Fikret Yuksel Foundation</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    The Foundation focuses on improving education for Turkish students primarily through getting them involved in the FIRST® Robotics Competition.
+    Their mission is to spread the FIRST Robotics Competition to as many students as possible in Turkey. 
     </Card.Text>
     
   </Card.Body>

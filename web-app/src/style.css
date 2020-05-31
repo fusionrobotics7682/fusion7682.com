@@ -1,0 +1,85 @@
+body{
+
+    font-family: 'Open Sans', sans-serif; 
+       
+}
+
+a{
+    color: #27275f;
+    font-weight: bold;
+}
+
+
+.h5, h5 {
+    font-size: 1.12rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #27275f!important;
+    font-weight: bold;
+
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #27275f;
+    color:white!important;
+    border-radius: 15px;
+}
+
+.dropdown-item:hover{
+    background-color: #27275f;
+    color:white!important;
+    border-radius: 15px;
+
+}
+
+.btn-outline-primary{
+    color: #27275f!important;
+    border-color: #27275f!important;
+    border-radius: 15px;
+}
+
+
+.btn-outline-primary:hover{
+    background-color: #27275f;
+    color:white!important;
+}
+
+.mr-sm-2{
+   
+    border-radius: 15px;
+    border-color: #27275f!important;
+
+}
+
+.card{
+    border-color: #27275f;
+    border-radius: 9px;
+    background-color:#27275f;
+    color:white
+}
+
+.card-title h5{
+    color:white
+}
+.mr-sm-2:focus{
+   
+    box-shadow: 3px 8px #27275f!important;
+    
+}
+
+
+.carousel-caption{
+    background-color: #00000075;
+    border-radius: 50px;
+    width: 73%;
+}
+
+
+
+.carousel img {
+    max-height: 600px;
+    max-width: 100%;  
+    border-radius: 9px;
+    
+}
