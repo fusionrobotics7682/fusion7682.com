@@ -16,7 +16,7 @@ function Header(){
     const logoImg = require("../assets/logo.png");
     const logoSize = 40;
     const logoStyle = {
-        color: "#27275f",
+        color: "#3f60ec",
         marginLeft: "20px",
         fontWeight: "bold"
     }
@@ -38,11 +38,17 @@ function Header(){
           <Nav.Link href="/">Home  </Nav.Link>
           <Nav.Link href="/about-us">About Us</Nav.Link>
           <NavDropdown title="Team" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/robotics">Robotics</NavDropdown.Item>
-            <NavDropdown.Item href="/security">Security</NavDropdown.Item>
+            <NavDropdown.Item href="/fusion-vision">Fusion Vision</NavDropdown.Item>
+            <NavDropdown.Item href="/fusion-security">Fusion Security</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item  className="disabled" href="/web">Web [Disabled]</NavDropdown.Item>
+            <NavDropdown.Item  className="disabled" href="/fusion-web">Fusion Web [Disabled]</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link href="/resources">Resources</Nav.Link>
+          <Nav.Link href="/sponsors">Sponsors</Nav.Link>
+          <Nav.Link href="/support-us">Support Us</Nav.Link>
+          <Nav.Link href="/media">Media</Nav.Link>
+
+
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />

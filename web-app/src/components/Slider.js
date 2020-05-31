@@ -1,40 +1,26 @@
 import React from "react"
-import Carousel from "react-bootstrap/Carousel"
+import Carousel from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 import Container from "react-bootstrap/Container"
 import "../style.css"
 function slider(){
     const firstSlide = require("../assets/team_photo.jpg");
     const secondSlide = require("../assets/team_photo3.jpg");
-
-   
-    
-
+    const thirdSlide = require("../assets/team_photo2.JPG");
     return(
         <Container>
-        <Carousel>
-
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={firstSlide}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>Mersin Off-Season 2019</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={secondSlide}
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Istanbul Regional 2019</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  </Carousel>
+        <Carousel
+        centered
+        infinite
+        arrows
+        dots
+        slidesPerPage={2}
+        className="sponsorCarousel"
+        >
+        <img src={firstSlide} alt="Slide 1" />
+        <img src={secondSlide} alt="Slide 2" />
+        <img src={thirdSlide} alt="Slide 3"/>
+        </Carousel>
   <br></br>
   </Container>
     )

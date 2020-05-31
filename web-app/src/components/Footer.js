@@ -29,6 +29,13 @@ function Footer()
             <Col>
             <a href="/sponsor-us">Sponsor Us</a>
             </Col>
+
+            <Col md={12}>
+            <br></br>
+            <p className="text-center">Email: <strong>contact@fusionrobotics.com</strong></p>
+            </Col>
+           
+        
            
         </Row>
         <br></br>

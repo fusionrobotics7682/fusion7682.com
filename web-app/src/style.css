@@ -4,6 +4,9 @@ body{
        
 }
 
+/* New Color: #3f60ec
+   Old Color: #27275f */
+
 a{
     color: #27275f;
     font-weight: bold;
@@ -13,6 +16,12 @@ a{
 .h5, h5 {
     font-size: 1.12rem;
 }
+
+
+.teamsTitle{
+    color: #27275f;
+}
+
 .navbar-light .navbar-nav .nav-link{
     color: #27275f!important;
     font-weight: bold;
@@ -71,15 +80,33 @@ a{
 
 .carousel-caption{
     background-color: #00000075;
-    border-radius: 50px;
+   
     width: 73%;
 }
 
+.badge-secondary{
+    background-color:#27275f;
+}
 
-
-.carousel img {
-    max-height: 600px;
+.sponsorCarousel img {
+    max-height: 450px;
     max-width: 100%;  
-    border-radius: 9px;
-    
+}
+
+.carousel-control-next-icon{
+    background-color: blueviolet;
+}
+
+.carousel-control-prev-icon{
+    background-color: blueviolet;
+}
+
+.BrainhubCarousel__arrows{
+    background-color: #27275f!important;
+}
+
+.sponsorCarousel img{
+    max-height: 320px;
+    max-width: 100%;   
+
 }
