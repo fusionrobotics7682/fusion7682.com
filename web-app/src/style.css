@@ -62,8 +62,7 @@ a{
 }
 
 .card{
-    border-color: #27275f;
-    border-radius: 9px;
+   
     background-color:#27275f;
     color:white
 }
@@ -89,7 +88,9 @@ a{
 }
 
 .sponsorCarousel img {
-    max-height: 450px;
+    height: 400px;
+    width: 100%;
+    max-height: 400px;
     max-width: 100%;  
 }
 
@@ -104,6 +105,51 @@ a{
 .BrainhubCarousel__arrows{
     background-color: #27275f!important;
 }
+
+
+
+.headerSlider img{
+    height:500px;
+    width: 75%;
+}
+
+
+@media (min-width:320px) and (max-width:568px) 
+{
+    .headerSlider img {
+        
+        width: 100%;
+        height:150px;
+        }
+}
+
+
+@media (min-width:375px) and (max-width:812px) 
+{
+    .headerSlider img {
+        
+        width: 100%;
+        height:150px;
+        }
+}
+
+
+@media (min-width:768px) and (max-width:1024px) 
+{
+    .headerSlider img {
+        
+        width: 100%;
+        height:350px
+        }
+}
+
+@media screen and (max-width: 830px) {
+  
+    .sponsorCarousel img{
+        height: 160px;
+    }
+  }
+  
 
 .sponsorCarousel img{
     max-height: 320px;

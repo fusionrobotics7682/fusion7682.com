@@ -12,7 +12,8 @@ function Jumbotron_Header()
     const jumbotronStyles = {
     backgroundColor: "#27275f",
     color: "#ffffff",
-    fontFamily: "sans-serif"
+
+
     }
 
     return(
@@ -29,7 +30,15 @@ function Jumbotron_Header()
         We welcome for your support!
         </p>
 
-        <a href="/support-us" style={{color:"rgb(0, 156, 215)"}}>Click Here</a>
+        <a href="/support-us" 
+        style=
+        {{
+            backgroundColor: "white",
+            color: "#27275f",
+            padding: "5px",
+            borderRadius :"5px",
+
+        }}>Click Here</a>
 
     </Container>
     </Jumbotron>

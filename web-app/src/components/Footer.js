@@ -40,7 +40,7 @@ function Footer()
         </Row>
         <br></br>
         <Row md={1}>
-            <p className="text-center">© COPYRIGHT {currentDate.getFullYear()}. ALL RIGHTS RESERVED.</p>
+            <p className="text-center text-muted">© COPYRIGHT {currentDate.getFullYear()}. ALL RIGHTS RESERVED.</p>
 
         </Row>
     </Container>

@@ -9,21 +9,36 @@ function announcement(){
     const day = date.getDate()
     const month = date.getMonth()
     const year = date.getFullYear()
+
+    const months ={
+        0:"January",
+        1:"February",
+        2:"March", 
+        3:"April",
+        4:"May",
+        5:"June",
+        6:"July",
+        7:"August",
+        8:"September",
+        9:"October",
+        10:"November",
+        11:"December"
+    }
     return(
         <Container>
         <Row>
         <Col md={4}>
         </Col>
-            <Col md={2}>
+            <Col md={12}>
 
-            <h4 style={{color:"#27275f"}} class="text-center">
-            Announcement:
-            </h4>
+            <h3 style={{color:"#27275f"}} class="text-center">
+            Announcement
+            </h3>
 
             </Col>
 
-            <Col md={6}>
-    <p>fusionrobotics.com online! [{day}.{month}.{year}] <Badge variant="secondary">New</Badge> </p>
+            <Col md={12}>
+    <p className="text-center"><span className="text-muted">{months[month]} {day}, {year} -</span> Our web-app is now online; Take a tour for us! <Badge variant="secondary">New</Badge></p>
             </Col>
 
         </Row>

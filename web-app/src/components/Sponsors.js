@@ -23,9 +23,8 @@ function sponsors(){
         <br></br>
         <h2 className="text-center" style={{color:"#27275f"}}>Sponsors</h2>
         </Col>
-        <Col md={3}>
-        </Col>
-        <Col md={6}>
+        
+        <Col md={12}>
         <Carousel
         centered
         infinite

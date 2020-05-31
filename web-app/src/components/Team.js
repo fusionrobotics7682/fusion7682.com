@@ -7,14 +7,12 @@ import Card from "react-bootstrap/Card"
 function teams(){
     const logoImg = require("../assets/logo.png");;
     const fusionSecLogo = require("../assets/fusionlogo2.png")
-    const imgSize = 320;
+    const imgSize = 390;
 
     return(
         <Container>
             <Row>
                 <Col md={12}>
-
-                    
                     <h2 className="text-center teamsTitle">Teams</h2>
                     <p className="text-center">We are not only a robotics team, we're family.
                                             So we've founded one more team inside of Fusion
@@ -29,7 +27,6 @@ function teams(){
                     <p className="text-center"> Sizler de bize bu 2 takımda destek çıkmak, ortak proje 
                     yapmak istiyorsanız <a href="/teams-support">buradan</a> iletişime geçebilirsiniz! </p>
                     
-                
                 </Col>
                 <Col md={6}>
 
