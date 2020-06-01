@@ -8,23 +8,36 @@ import Slider from "./Slider"
 import Team from "./Team"
 import Sponsors from "./Sponsors"
 import Announcement from "./Announcement"
+import About from "./About"
+import {
+    BrowserRouter as Router, 
+    Switch, 
+    Route} from 'react-router-dom'
 import "../style.css"
 
 
 function MyApp(){
     return (
+    <Router>
     <div>
     <Header />
-    <Announcement />
-    <Slider />
-    <Cards />
-    <Sponsors />
-    <Team />
-    <Jumbotron />
+        <Switch>
+            <Route path="/about-us">
+                <About />
+            </Route>
+
+            <Route path="/">
+                <Announcement />
+                <Slider />
+                <Cards />
+                <Team />
+                <Sponsors />
+                <Jumbotron />
+            </Route>
+        </Switch>    
     <Footer />
-    
-    
     </div>
+    </Router>
     )
 }
 

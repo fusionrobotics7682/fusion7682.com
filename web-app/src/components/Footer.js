@@ -19,7 +19,7 @@ function Footer()
             </Col>
 
             <Col>
-            <a href="/about">About</a>
+            <a href="/about-us">About Us</a>
             </Col>
 
             <Col>
