@@ -8,7 +8,11 @@ import Slider from "./Slider"
 import Team from "./Team"
 import Sponsors from "./Sponsors"
 import Announcement from "./Announcement"
+
+// Pages:
 import About from "./About"
+import SupportUs from "./SupportUs"
+
 import {
     BrowserRouter as Router, 
     Switch, 
@@ -24,6 +28,10 @@ function MyApp(){
         <Switch>
             <Route path="/about-us">
                 <About />
+            </Route>
+
+            <Route path="/support-us">
+                <SupportUs />
             </Route>
 
             <Route path="/">
