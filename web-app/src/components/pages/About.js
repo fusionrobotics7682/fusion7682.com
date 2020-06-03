@@ -4,9 +4,10 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Image from "react-bootstrap/Image"
-import "../style.css"
+import "../../style.css"
 
-const firstSlide = require("../assets/team_photo.jpg");
+
+const firstSlide = require("../../assets/team_photo.jpg");
 
 function aboutUs(){
   const jumbotronStyles = {
@@ -49,7 +50,7 @@ function aboutUs(){
       </Col>
 
       <Col xs={12} md={6}>
-      <Image src={firstSlide} height={"310px"} width={"100%"} rounded />
+      <Image src={firstSlide} height={"360px"} width={"100%"} rounded />
       </Col>
       
       <Col xs={12} md={12}>

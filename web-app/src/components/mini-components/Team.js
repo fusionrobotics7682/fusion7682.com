@@ -5,8 +5,8 @@ import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
 
 function teams(){
-    const logoImg = require("../assets/logo.png");;
-    const fusionSecLogo = require("../assets/fusionlogo2.png")
+    const logoImg = require("../../assets/logo.png");;
+    const fusionSecLogo = require("../../assets/fusionlogo2.png")
     const imgSize = 390;
 
     return(

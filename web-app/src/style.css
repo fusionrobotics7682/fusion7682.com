@@ -1,11 +1,51 @@
 body{
 
     font-family: 'Open Sans', sans-serif; 
+    height: 100%
        
 }
 
 /* New Color: #3f60ec
    Old Color: #27275f */
+
+body .headerBackground {
+    margin-bottom: 0px;
+    position: relative;
+    background: none;
+    
+  }
+
+
+.headerBackground .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("assets/team_photo.jpg");
+    background-position: 0% 30%;
+    height:400px!important;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+     -o-filter: blur(4px);
+     -ms-filter: blur(4px);
+     filter: blur(4px);
+     z-index: -1;
+     height: 100%;
+}
+
+.headerText{
+    color:white;
+    background-color: #3f51b51a;
+    padding: 10%;
+}
+
+
+
+ 
 
 a{
     color: #27275f;

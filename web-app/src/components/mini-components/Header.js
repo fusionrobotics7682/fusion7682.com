@@ -6,14 +6,15 @@ import NavDropdown from "react-bootstrap/NavDropdown"
 import Form from "react-bootstrap/Form"
 import FormControl from "react-bootstrap/FormControl"
 import Button from "react-bootstrap/Button"
-import "../style.css"
+import "../../style.css"
+
 
 // Example icon code:
 // import { FaHome  } from 'react-icons/fa';
 // <FaHome  style={{color:"black"}}/>
 
 function Header(){
-    const logoImg = require("../assets/logo.png");
+    const logoImg = require("../../assets/logo.png");
     const logoSize = 40;
     const logoStyle = {
         color: "#3f60ec",
@@ -30,7 +31,7 @@ function Header(){
         height={logoSize}
         className="d-inline-block align-top"
         alt="FR Logo"/>
-      <Navbar.Brand href="#home" style={logoStyle}>Fusion Robotics
+      <Navbar.Brand href="/" style={logoStyle}>Fusion Robotics
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

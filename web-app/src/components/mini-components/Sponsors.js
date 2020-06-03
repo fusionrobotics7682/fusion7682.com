@@ -5,11 +5,12 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
-import "../style.css"
+import "../../style.css"
 
-const sponsor1 = require("../assets/sponsor4.jpg");
-const sponsor2 = require("../assets/sponsor2.jpg");
-const sponsor3 = require("../assets/sponsor3.jpg");
+
+const sponsor1 = require("../../assets/sponsor4.jpg");
+const sponsor2 = require("../../assets/sponsor2.jpg");
+const sponsor3 = require("../../assets/sponsor3.jpg");
 
 
 

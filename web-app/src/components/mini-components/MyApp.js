@@ -10,14 +10,14 @@ import Sponsors from "./Sponsors"
 import Announcement from "./Announcement"
 
 // Pages:
-import About from "./About"
-import SupportUs from "./SupportUs"
+import About from "./../pages/About"
+import SupportUs from "./../pages/SupportUs"
 
 import {
     BrowserRouter as Router, 
     Switch, 
     Route} from 'react-router-dom'
-import "../style.css"
+import "../../style.css"
 
 
 function MyApp(){

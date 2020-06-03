@@ -8,9 +8,9 @@ import Col from "react-bootstrap/Col"
 
 function cards_container()
 {
-    const logoImg = require("../assets/logo.png");
-    const frcLogo = require("../assets/firstlogo.jpg");
-    const fikretYuksekLogo = require("../assets/fikretyuksel.jpg");
+    const logoImg = require("../../assets/logo.png");
+    const frcLogo = require("../../assets/firstlogo.jpg");
+    const fikretYuksekLogo = require("../../assets/fikretyuksel.jpg");
     const imgSize = 250;
 
   
@@ -19,8 +19,8 @@ function cards_container()
 <Container>
 
   <Row > 
-    <Col md={4}>
-      <Card>
+    <Col lg="4" md={6} >
+      <Card  border="light" >
         <Card.Img variant="top" src={logoImg}
                                 width={imgSize}
                                 height={imgSize} />
@@ -34,8 +34,8 @@ function cards_container()
       </Card>
      </Col>
         
-        <Col md={4}>
-          <Card>
+        <Col lg="4" md={6}>
+          <Card border="light">
             <Card.Img variant="top" src={frcLogo} width={imgSize}
                       height={imgSize} />
             <Card.Body>
@@ -49,9 +49,9 @@ function cards_container()
           </Card>
         </Col>
 
-        <Col md={4}>
+        <Col lg="4" md={6}>
 
-        <Card>
+        <Card  border="light">
   <Card.Img variant="top" src={fikretYuksekLogo}width={imgSize}
             height={imgSize} />
   <Card.Body>
