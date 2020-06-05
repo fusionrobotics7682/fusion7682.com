@@ -11,7 +11,7 @@ const firstSlide = require("../../assets/team_photo.jpg");
 
 function aboutUs(){
   const jumbotronStyles = {
-    backgroundColor: "#27275f",
+    backgroundColor: "#10375c",
     color: "#ffffff",
 
 
@@ -31,7 +31,7 @@ function aboutUs(){
       <Row>
         
       <Col xs={12} md={6}>
-      <h1 style={{color:"#27275f"}}>
+      <h1 style={{color:"#10375c"}}>
         Who Are We?
       </h1>
       <p>
@@ -69,12 +69,12 @@ function aboutUs(){
       Now beginning our 16th season, our team.
       </p>
 
-      <hr style={{backgroundColor:"#27275f"}}></hr>
+      <hr style={{backgroundColor:"#10375c"}}></hr>
       </Col>
 
 
       <Col xs={12} md={12}>
-      <h1 style={{color:"#27275f"}}>
+      <h1 style={{color:"#10375c"}}>
         Vision Statement
       </h1>
       <p>
@@ -83,11 +83,11 @@ function aboutUs(){
       <br></br>
       </p>
 
-      <hr style={{backgroundColor:"#27275f"}}></hr>
+      <hr style={{backgroundColor:"#10375c"}}></hr>
       </Col>
 
       <Col xs={12} md={12}>
-      <h1 style={{color:"#27275f"}}>
+      <h1 style={{color:"#10375c"}}>
         Join Us!
       </h1>
       <p>

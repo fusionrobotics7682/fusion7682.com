@@ -9,7 +9,7 @@ import "../../style.css"
 
 function supportUs(){
   const jumbotronStyles = {
-    backgroundColor: "#27275f",
+    backgroundColor: "#10375c",
     color: "#ffffff",
     width: "100%"
 
@@ -30,7 +30,7 @@ function supportUs(){
       <Row>
         
       <Col xs={12} md={12}>
-      <h1 style={{color:"#27275f"}}>
+      <h1 style={{color:"#10375c"}}>
         We need your support!
       </h1>
       
@@ -43,7 +43,7 @@ function supportUs(){
 
 
       <Col xs={12} md={12}>
-      <h2 style={{color:"#27275f"}}>
+      <h2 style={{color:"#10375c"}}>
       ​Become a Member
       </h2>
       <p>
@@ -57,7 +57,7 @@ function supportUs(){
       </Col>
 
         <Col xs={12} md={12}>
-        <h2 style={{color:"#27275f"}}>
+        <h2 style={{color:"#10375c"}}>
         Become a Sponsor
         </h2>
         <p>
@@ -66,11 +66,11 @@ function supportUs(){
         We’ll be happy to add you as a sponsor and to see your logo on our t-shirts and robot next year. To view our sponsor page click here.
         <br></br>
         </p>
-        <hr style={{backgroundColor:"#27275f"}}></hr>
+        <hr style={{backgroundColor:"#10375c"}}></hr>
         </Col>
 
         <Col xs={12} md={12}>
-        <h2 style={{color:"#27275f"}}>
+        <h2 style={{color:"#10375c"}}>
         SPONSORSHIP LEVELS
         </h2>
         </Col>
@@ -140,11 +140,11 @@ function supportUs(){
         </Col>
 
         <Col xs={12} md={12}>
-        <hr style={{backgroundColor:"#27275f"}}></hr>
+        <hr style={{backgroundColor:"#10375c"}}></hr>
         </Col>
 
         <Col xs={12} md={12}>
-        <h2 style={{color:"#27275f"}}>
+        <h2 style={{color:"#10375c"}}>
         BENEFITS OF SPONSORING
         </h2>
         </Col>

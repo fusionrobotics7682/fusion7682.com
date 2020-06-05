@@ -10,7 +10,7 @@ import Container from "react-bootstrap/Container"
 function Jumbotron_Header()
 {
     const jumbotronStyles = {
-    backgroundColor: "#27275f",
+    backgroundColor: "#10375c",
     color: "#ffffff",
 
 
@@ -34,7 +34,7 @@ function Jumbotron_Header()
         style=
         {{
             backgroundColor: "white",
-            color: "#27275f",
+            color: "#127681",
             padding: "5px",
             borderRadius :"5px",
 

@@ -31,7 +31,7 @@ function announcement(){
         </Col>
             <Col md={12}>
 
-            <h3 style={{color:"#27275f"}} class="text-center">
+            <h3 style={{color:"#127681"}} class="text-center">
             Announcement
             </h3>
 

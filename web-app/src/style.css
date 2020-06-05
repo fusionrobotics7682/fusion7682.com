@@ -22,7 +22,7 @@ body .headerBackground {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("assets/team_photo.jpg");
+    background-image: url("assets/team_photo3.jpg");
     background-position: 0% 30%;
     height:400px!important;
     width: 100%;
@@ -48,7 +48,7 @@ body .headerBackground {
  
 
 a{
-    color: #27275f;
+    color: #127681;
     font-weight: bold;
 }
 
@@ -59,51 +59,51 @@ a{
 
 
 .teamsTitle{
-    color: #27275f;
+    color: #127681;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: #27275f!important;
+    color: #127681!important;
     font-weight: bold;
 
     
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-    background-color: #27275f;
+    background-color: #10375c;
     color:white!important;
     border-radius: 15px;
 }
 
 .dropdown-item:hover{
-    background-color: #27275f;
+    background-color: #10375c;
     color:white!important;
     border-radius: 15px;
 
 }
 
 .btn-outline-primary{
-    color: #27275f!important;
-    border-color: #27275f!important;
+    color: #127681!important;
+    border-color: #127681!important;
     border-radius: 15px;
 }
 
 
 .btn-outline-primary:hover{
-    background-color: #27275f;
+    background-color: #10375c;
     color:white!important;
 }
 
 .mr-sm-2{
    
     border-radius: 15px;
-    border-color: #27275f!important;
+    border-color: #127681!important;
 
 }
 
 .card{
    
-    background-color:#27275f;
+    background-color:#10375c;
     color:white
 }
 
@@ -112,7 +112,7 @@ a{
 }
 .mr-sm-2:focus{
    
-    box-shadow: 3px 8px #27275f!important;
+    box-shadow: 3px 8px #10375c!important;
     
 }
 
@@ -124,7 +124,7 @@ a{
 }
 
 .badge-secondary{
-    background-color:#27275f;
+    background-color:#f3c623;
 }
 
 .sponsorCarousel img {
@@ -135,15 +135,15 @@ a{
 }
 
 .carousel-control-next-icon{
-    background-color: blueviolet;
+    background-color: #f3c623;
 }
 
 .carousel-control-prev-icon{
-    background-color: blueviolet;
+    background-color: #f3c623;
 }
 
 .BrainhubCarousel__arrows{
-    background-color: #27275f!important;
+    background-color: #f3c623!important;
 }
 
 

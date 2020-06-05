@@ -17,7 +17,7 @@ function Header(){
     const logoImg = require("../../assets/logo.png");
     const logoSize = 40;
     const logoStyle = {
-        color: "#3f60ec",
+        color: "#10375c",
         marginLeft: "20px",
         fontWeight: "bold"
     }
