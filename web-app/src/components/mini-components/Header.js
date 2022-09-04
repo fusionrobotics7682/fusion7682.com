@@ -2,7 +2,6 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
-import NavDropdown from "react-bootstrap/NavDropdown"
 import "../../style.css"
 
 
@@ -33,14 +32,9 @@ function Header(){
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">Home  </Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about-us">About Us</Nav.Link>
-          <NavDropdown title="Team" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/fusion-vision">Fusion Vision</NavDropdown.Item>
-            <NavDropdown.Item href="/fusion-security">Fusion Security</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item  className="disabled" href="/fusion-web">Fusion Web [Disabled]</NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="/sponsors">Sponsors</Nav.Link>
           <Nav.Link href="/support-us">Support Us</Nav.Link>
           <Nav.Link href="/media">Media</Nav.Link>
