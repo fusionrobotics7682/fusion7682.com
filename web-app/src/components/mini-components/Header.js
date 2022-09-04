@@ -44,17 +44,12 @@ function Header(){
             <NavDropdown.Divider />
             <NavDropdown.Item  className="disabled" href="/fusion-web">Fusion Web [Disabled]</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/resources">Resources</Nav.Link>
           <Nav.Link href="/sponsors">Sponsors</Nav.Link>
           <Nav.Link href="/support-us">Support Us</Nav.Link>
           <Nav.Link href="/media">Media</Nav.Link>
 
 
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button  variant="outline-primary">Search</Button>
-        </Form>
       </Navbar.Collapse>
     </Navbar>
  
