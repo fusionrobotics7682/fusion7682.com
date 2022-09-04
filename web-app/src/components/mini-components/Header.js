@@ -3,9 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
-import Form from "react-bootstrap/Form"
-import FormControl from "react-bootstrap/FormControl"
-import Button from "react-bootstrap/Button"
 import "../../style.css"
 
 
@@ -47,8 +44,6 @@ function Header(){
           <Nav.Link href="/sponsors">Sponsors</Nav.Link>
           <Nav.Link href="/support-us">Support Us</Nav.Link>
           <Nav.Link href="/media">Media</Nav.Link>
-
-
         </Nav>
       </Navbar.Collapse>
     </Navbar>
