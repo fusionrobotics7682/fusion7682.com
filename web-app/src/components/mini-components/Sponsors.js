@@ -20,7 +20,7 @@ function sponsors(){
         <Row>
         <Col md={12}>
         <br></br>
-        <h2 className="text-center" style={{color:"#10375c"}}>Sponsorss</h2>
+        <h2 className="text-center" style={{color:"#10375c"}}>Sponsors</h2>
         </Col>
         
         <Col md={12}>
