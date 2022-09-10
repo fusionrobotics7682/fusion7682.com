@@ -11,8 +11,6 @@ import "../../style.css"
 const sponsor1 = require("../../assets/sponsor4.jpg");
 const sponsor2 = require("../../assets/sponsor2.jpg");
 const sponsor3 = require("../../assets/sponsor3.jpg");
-let v1 = "Version 1.0"
-
 
 
 function sponsors(){
@@ -22,7 +20,7 @@ function sponsors(){
         <Row>
         <Col md={12}>
         <br></br>
-        <h2 className="text-center" style={{color:"#10375c"}}>Sponsors</h2>
+        <h2 className="text-center" style={{color:"#10375c"}}>Sponsorss</h2>
         </Col>
         
         <Col md={12}>
