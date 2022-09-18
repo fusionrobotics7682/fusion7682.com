@@ -35,17 +35,8 @@ function aboutUs(){
         Who Are We?
       </h1>
       <p>
-      Our FRC (FIRST® Robotics Competition) team was founded as “EnGen Robotics” in 2004 by Steve Harvey, 
-      a math teacher at Da Vinci Charter Academy in Davis, CA. In 2007, we changed our name to “Citrus Circuits.” 
-      Now beginning our 16th season, our team has grown to include nearly 100 high school students from Davis Senior High School, 
-      Da Vinci Charter Academy, Holmes Junior High, Emerson Junior High, and Harper Junior High.
-
-      Now beginning our 16th season, our team has grown to include nearly 100 high school students from Davis Senior High School, 
-      Da Vinci Charter Academy, Holmes Junior High, Emerson Junior High, and Harper Junior High.
-      
-      Our FRC (FIRST® Robotics Competition) team was founded as “EnGen Robotics” in 2004 by Steve Harvey, 
-      a math teacher at Da Vinci Charter Academy in Davis, CA. In 2007, we changed our name to “Citrus Circuits.” 
-      Now beginning our 16th season, our team.
+      In 2018, we went to watch the FRC robot competition held in Istanbul Ulker Arena with a group of students from Fusun Yonder Anatolian High School. FRC (FIRST Robotics Competition) is an international robotics competition organized by the FIRST foundation between the teams of students between 15-18 December every year. We were very impressed to see how the teams communicated with each other and what our peers could do in the competition. And we wanted to take part in this competition. We started off with enthusiastic students who don't know how to make robots in a school without a workshop, and a literature teacher who has no idea about robots... 
+      We found an experienced FRC school team to teach us how to make robots. Graduated university students Mustafa Mert Tunalı and Aziz Kılıç came to our team as technical mentors. They opened their workshop and taught us the basics of making obots so that we could learn the process. Thus, we established our team in 2018. 
       </p>
       </Col>
 
@@ -56,54 +47,23 @@ function aboutUs(){
       <Col xs={12} md={12}>
       <br></br>
       <p>
-      Our FRC (FIRST® Robotics Competition) team was founded as “EnGen Robotics” in 2004 by Steve Harvey, 
-      a math teacher at Da Vinci Charter Academy in Davis, CA. In 2007, we changed our name to “Citrus Circuits.” 
-      Now beginning our 16th season, our team has grown to include nearly 100 high school students from Davis Senior High School, 
-      Da Vinci Charter Academy, Holmes Junior High, Emerson Junior High, and Harper Junior High.
+      We participated in our first competition in Istanbul in March 2019. We reached the quarter-finals with our robot in the 3-day competition and won the Safety Award 2019, one of the prestigious awards, due to the importance we place on occupational safety. After the competition, we worked harder as a team and in a year and a half we were able to make robots from scratch. We could have done better, we should have set a new goal. New destination New York... 
 
-      Now beginning our 16th season, our team has grown to include nearly 100 high school students from Davis Senior High School, 
-      Da Vinci Charter Academy, Holmes Junior High, Emerson Junior High, and Harper Junior High.
-      
-      Our FRC (FIRST® Robotics Competition) team was founded as “EnGen Robotics” in 2004 by Steve Harvey, 
-      a math teacher at Da Vinci Charter Academy in Davis, CA. In 2007, we changed our name to “Citrus Circuits.” 
-      Now beginning our 16th season, our team.
+  
+
+We set up our workshop, found sponsors and provided our materials. We have arranged our plane tickets and where we will stay, but 1 week before the competition, the Covid-19 pandemic process started and we could not participate in the competition. We produced 250 visors that they needed to support healthcare professionals during the pandemic process with our 3D printer and delivered them to healthcare professionals. We participated in 2020 Teknofest and passed the pre-qualifications and went to Gaziantep. We qualified to be the second in Turkey among 243 teams at the stage of the Teknofest 2021 Educational Technologies Preliminary Evaluation Report. 
+
+  
+
+We participated in the competition for the first time 2 years after the start of the epidemic; We went to the FRC 2022. Volkswagen Arena race with our own robot, new jerseys and new members. Everyone in the stands, on the field and at our stand took responsibility for their duties. We made presentations to the juries, met other teams, applauded our team in the stands, and most importantly, we saw that our robot was working and even autonomous. Of course, there were moments when we could not get the efficiency we wanted from our robot during the competition, but our technical team tried to solve the problems. Thus, we held a competition for 3 days in which we both gained experience and had fun. 
+
+  
+
+Then, we participated in the 1Idea 1World competition organized by TUMMIAD on 16-17 May. We exhibited our robot and introduced our team in the competition with international participants. We won a bronze medal for our success in our field. Now Teknofest 2022, FRC 2023, many off-season competitions and fairs are waiting for us. In addition, we continue our trainings, seminars and learning while having fun.
       </p>
 
       <hr style={{backgroundColor:"#10375c"}}></hr>
       </Col>
-
-
-      <Col xs={12} md={12}>
-      <h1 style={{color:"#10375c"}}>
-        Vision Statement
-      </h1>
-      <p>
-      We transform our communities through education; we engage people of all ages through outreach; 
-      we inspire others with our commitment to excellence. We strive to Educate, Empower, and Excel.
-      <br></br>
-      </p>
-
-      <hr style={{backgroundColor:"#10375c"}}></hr>
-      </Col>
-
-      <Col xs={12} md={12}>
-      <h1 style={{color:"#10375c"}}>
-        Join Us!
-      </h1>
-      <p>
-      To join the team, there is an application and interview process starting in
-       early May and ending in late June. We encourage anyone who will be in grades 9-12 
-       for the upcoming season to apply- no experience is necessary. 
-       Those who do not make it onto the team or apply after the deadline will be placed 
-       on a waitlist. if you have any questions regarding the application process or 
-       Citrus Circuits in general, please contact us at administration@citruscircuits.org or 
-       use the Contact Us feature on this website.
-      <br></br>
-      </p>
-
-      <hr style={{backgroundColor:"#27275f"}}></hr>
-      </Col>
-      
       </Row>
       </Container>
       <br></br>

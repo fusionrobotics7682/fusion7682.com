@@ -27,12 +27,12 @@ function Footer()
             </Col>
 
             <Col>
-            <a href="/sponsor-us">Sponsor Us</a>
+            <a href="/support-us">Support Us</a>
             </Col>
 
             <Col md={12}>
             <br></br>
-            <p className="text-center">Email: <strong>contact@fusionrobotics.com</strong></p>
+            <p className="text-center">Email: <strong>fusionrobotics7682@gmail.com</strong></p>
             </Col>
            
         

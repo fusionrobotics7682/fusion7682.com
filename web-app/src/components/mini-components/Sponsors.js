@@ -7,13 +7,9 @@ import Col from "react-bootstrap/Col"
 
 import "../../style.css"
 
-
 const sponsor1 = require("../../assets/sponsor4.jpg");
 const sponsor2 = require("../../assets/sponsor2.jpg");
 const sponsor3 = require("../../assets/sponsor3.jpg");
-
-
-
 
 function sponsors(){
     return(
