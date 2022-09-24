@@ -21,11 +21,7 @@ function Footer()
             <Col>
             <a href="/about-us">About Us</a>
             </Col>
-
-            <Col>
-            <a href="/media">Media</a>
-            </Col>
-
+            
             <Col>
             <a href="/support-us">Support Us</a>
             </Col>
