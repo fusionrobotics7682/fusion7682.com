@@ -45,7 +45,7 @@ function projects(){
         <Card.Body>
           <Card.Title>Bosphorus Regional</Card.Title>
            <Card.Text>
-           2021 TEKNOFEST'te Eğitim Teknolojileri alanının Ön Değerlendirme Rapor aşamasında 243 takım arasından Türkiye ikincisi olmaya hak kazandık</Card.Text>
+           Tamamını bizim yaptığımız ilk robotumuzla sahaya çıktık, robotumuz maç sırasında arızalansa bile pes etmedik ve takımımıza sonuna kadar destek olmaya devam ettik. </Card.Text>
     
         </Card.Body>
       </Card>
@@ -58,7 +58,7 @@ function projects(){
         <Card.Body>
           <Card.Title>Pendik - Off Season</Card.Title>
            <Card.Text>
-           2021 TEKNOFEST'te Eğitim Teknolojileri alanının Ön Değerlendirme Rapor aşamasında 243 takım arasından Türkiye ikincisi olmaya hak kazandık</Card.Text>
+           -</Card.Text>
     
         </Card.Body>
       </Card>
