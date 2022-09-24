@@ -13,17 +13,13 @@ function Footer()
         <footer>
             <Container>
 
-        <Row md={4} xs={12}>
+        <Row md={3} xs={12}>
             <Col>
             <a href="/first-robotics">FIRST Robotics</a>
             </Col>
 
             <Col>
             <a href="/about-us">About Us</a>
-            </Col>
-
-            <Col>
-            <a href="/media">Media</a>
             </Col>
 
             <Col>

@@ -5,13 +5,14 @@ import Header from "./Header"
 import Jumbotron from "./Jumbotron"
 import Cards from "./Cards"
 import Slider from "./Slider"
-import Team from "./Team"
 import Sponsors from "./Sponsors"
 import Announcement from "./Announcement"
 
 // Pages:
 import About from "./../pages/About"
 import SupportUs from "./../pages/SupportUs"
+import Projects from "./../pages/Projects"
+import SponsorsPage from "../pages/Sponsors"
 
 import {
     BrowserRouter as Router, 
@@ -34,11 +35,18 @@ function MyApp(){
                 <SupportUs />
             </Route>
 
+            <Route path="/projects">
+                <Projects />
+            </Route>
+
+            <Route path="/sponsors">
+                <SponsorsPage />
+            </Route>
+
             <Route path="/">
                 <Announcement />
                 <Slider />
                 <Cards />
-                <Team />
                 <Sponsors />
                 <Jumbotron />
             </Route>

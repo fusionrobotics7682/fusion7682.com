@@ -4,7 +4,6 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import "../../style.css"
 
-
 // Example icon code:
 // import { FaHome  } from 'react-icons/fa';
 // <FaHome  style={{color:"black"}}/>
@@ -17,8 +16,8 @@ function Header(){
         marginLeft: "20px",
         fontWeight: "bold"
     }
-    return(
-       
+    
+    return(   
     <>
       <Navbar bg="white" expand="lg">
       <img
@@ -31,15 +30,36 @@ function Header(){
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav>
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about-us">About Us</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="/sponsors">Sponsors</Nav.Link>
           <Nav.Link href="/support-us">Support Us</Nav.Link>
-          <Nav.Link href="/media">Media</Nav.Link>
         </Nav>
       </Navbar.Collapse>
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>     
+      <Navbar.Collapse></Navbar.Collapse>          
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav>
+          <Nav.Link href="https://www.instagram.com/fusionrobotics7682/?hl=tr">Instagram</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/company/fusion-robotics-7682">LinkedIn</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+      
     </Navbar>
  
 </>

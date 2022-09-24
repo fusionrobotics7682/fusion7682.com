@@ -19,12 +19,12 @@ function slider(){
             
             <Container>
             <div className="text-center headerText">
-            <h1>We are <span style={{color:"#127681",
+            <h1>We are <span style={{
             fontWeight:"bold"}}>Fusion Robotics</span>.</h1>
                 <p style=
                 {{fontSize:"17px",
                 }}>
-                A team of passionate <span style={{color:"#127681",
+                A team of passionate <span style={{
             fontWeight:"bold"}}>youth</span> from Istanbul/Turkey.
                 </p>
 
@@ -36,7 +36,7 @@ function slider(){
                     padding: "5px",
                     borderRadius :"5px",
 
-        }}>Click Here</a>
+        }}>About Us</a>
             </div>
                 
             </Container>
