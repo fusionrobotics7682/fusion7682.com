@@ -12,7 +12,10 @@ function cards_container()
     const frcLogo = require("../../assets/firstlogo.jpg");
     const fikretYuksekLogo = require("../../assets/fikretyuksel.jpg");
     const imgSize = 250;
-
+    const fusionWidth = 150;
+    const fusionHeight = 300;
+    const firstLogoWidth = 300;
+    const firstLogoHeight = 225;
   
    
     return(
@@ -22,8 +25,8 @@ function cards_container()
     <Col lg="4" md={6} >
       <Card  border="light" >
         <Card.Img variant="top" src={logoImg}
-                                width={imgSize}
-                                height={imgSize} />
+                                width={fusionWidth}
+                                height={fusionHeight} />
         <Card.Body>
           <Card.Title>Our Vision</Card.Title>
            <Card.Text>
@@ -36,8 +39,8 @@ function cards_container()
         
         <Col lg="4" md={6}>
           <Card border="light">
-            <Card.Img variant="top" src={frcLogo} width={imgSize}
-                      height={imgSize} />
+            <Card.Img variant="top" src={frcLogo} width={firstLogoWidth}
+                      height={firstLogoHeight}/>
             <Card.Body>
                 <Card.Title>FIRST Robotics</Card.Title>
                 <Card.Text>
