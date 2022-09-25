@@ -1,7 +1,6 @@
 import React from "react"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 
 function Footer()
 {
@@ -12,28 +11,6 @@ function Footer()
     return(
         <footer>
             <Container>
-
-        <Row md={3} xs={12}>
-            <Col>
-            <a href="/first-robotics">FIRST Robotics</a>
-            </Col>
-
-            <Col>
-            <a href="/about-us">About Us</a>
-            </Col>
-
-            <Col>
-            <a href="/support-us">Support Us</a>
-            </Col>
-
-            <Col md={12}>
-            <br></br>
-            <p className="text-center">Email: <strong>fusionrobotics7682@gmail.com</strong></p>
-            </Col>
-           
-        
-           
-        </Row>
         <br></br>
         <Row md={1}>
             <p className="text-center text-muted">© COPYRIGHT {currentDate.getFullYear()}. ALL RIGHTS RESERVED.</p>
