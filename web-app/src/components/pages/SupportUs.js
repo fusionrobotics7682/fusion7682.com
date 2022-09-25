@@ -28,11 +28,11 @@ function supportUs(){
         
       <Col xs={12} md={12}>
       <h1 style={{color:"#10375c"}}>
-        We need your support!
+        Desteğinize ihtiyacımız var!
       </h1>
       
       <p>
-      As a FIRST Robotics Team, we require many resources for our program to be successful. Our team is always looking for support whether it be in the form of new team members, mentors, or sponsorship.
+      Fusion Robotics olarak sponsorlarımız bizim için çok önemli bir etkendir. Katıldığımız yarışmalarda ve gerçekleştirmek istediğimiz projelerde takımımıza malzeme desteği, maddi desteği ve atölyede sıkı çalışma içinde bulunduğumuz zamanlarda beslenme gibi temel ihtiyaçlarımızı karşılamakta da bize destek olmaktadırlar. Bunun yanı sıra sponsorlarımız FIRST’ü ve STEM’i yaymamızda, kendimizi mühendislikte geliştirmemizde yardımcı olmaktadırlar.
       </p>
      
       </Col>
