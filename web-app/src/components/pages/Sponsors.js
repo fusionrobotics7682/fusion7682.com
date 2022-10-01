@@ -7,30 +7,30 @@ import { Card, Col, Image, Row } from "react-bootstrap"
 
 
 
-function sponsors(){
+function sponsors(){    
 
   const jumbotronStyles = {
     backgroundColor: "#10375c",
     color: "#ffffff",
     }
 
-    const b_belediyesi = require("../../assets/sponsors/b_belediyesi.png");
-    const knowledge_club = require("../../assets/sponsors/knowledge_club.png");
-    const rustu_akin = require("../../assets/sponsors/rüştü_akın.png");
-    const unity = require("../../assets/sponsors/unity.png");
-    //const r_kadak = require("../../assets/sponsors/r_kadak.png");
-    const altay_civata = require("../../assets/sponsors/altay_civata.png");
-    const eskipolat = require("../../assets/sponsors/eskipolat.png");
-    const demiriz = require("../../assets/sponsors/demiriz.png");
-    const asya_bayrak = require("../../assets/sponsors/asya_bayrak.png");
-    const konzek = require("../../assets/sponsors/konzek.png");
-    const micron_tekstil = require("../../assets/sponsors/micron_tekstil.png");
-    const star_alüminyum = require("../../assets/sponsors/star_alüminyum.png");
-    const verar_kargo = require("../../assets/sponsors/verar_kargo.png");
-    const özsoy_metal = require("../../assets/sponsors/özsoy_metal.png");
-    const saykom = require("../../assets/sponsors/saykom.png");
-    const ozbekcpa = require("../../assets/sponsors/özbekcpa.png");
-    const özdisan = require("../../assets/sponsors/özdisan.png");
+    const b_belediyesi = require("../../assets/sponsors/b_belediyesi.jpeg");
+    const knowledge_club = require("../../assets/sponsors/knowledge_club.jpeg");
+    const rustu_akin = require("../../assets/sponsors/rüştü_akın.jpeg");
+    const unity = require("../../assets/sponsors/unity.jpeg");
+    //const r_kadak = require("../../assets/sponsors/r_kadak.jpeg");
+    const altay_civata = require("../../assets/sponsors/altay_civata.jpeg");
+    const eskipolat = require("../../assets/sponsors/eskipolat.jpeg");
+    //const demiriz = require("../../assets/sponsors/demiriz.jpeg");
+    const asya_bayrak = require("../../assets/sponsors/asya_bayrak.jpeg");
+    const konzek = require("../../assets/sponsors/konzek.jpeg");
+    const micron_tekstil = require("../../assets/sponsors/micron_tekstil.jpeg");
+    const star_alüminyum = require("../../assets/sponsors/star_alüminyum.jpeg");
+    const verar_kargo = require("../../assets/sponsors/verar_kargo.jpeg");
+    const özsoy_metal = require("../../assets/sponsors/özsoy_metal.jpeg");
+    const saykom = require("../../assets/sponsors/saykom.jpeg");
+    //const ozbekcpa = require("../../assets/sponsors/özbekcpa.jpeg");
+    const özdisan = require("../../assets/sponsors/özdisan.jpeg");
 
     return(
       <div>
@@ -124,20 +124,6 @@ function sponsors(){
 </Card.Body>
 </Card>
     </Row><Row>
-
-<Card  border="light" style={{
-    width:350,
-}}>
-<Image variant="top" src={demiriz}
-                    width={"%100"}
-                    height={300} />
-<Card.Body>
-<Card.Title>Demir İz</Card.Title>
-<Card.Text>
-</Card.Text>
-
-</Card.Body>
-</Card>
 <Card  border="light" style={{
     width:350,
 }}>
@@ -164,7 +150,7 @@ function sponsors(){
 
 </Card.Body>
 </Card>
-    </Row><Row>
+
 
 <Card  border="light" style={{
     width:350,
@@ -179,6 +165,8 @@ function sponsors(){
 
 </Card.Body>
 </Card>
+    </Row><Row>
+
 <Card  border="light" style={{
     width:350,
 }}>
@@ -205,7 +193,6 @@ function sponsors(){
 
 </Card.Body>
 </Card>
-    </Row><Row>
 
 <Card  border="light" style={{
     width:350,
@@ -220,6 +207,9 @@ function sponsors(){
 
 </Card.Body>
 </Card>
+    </Row><Row>
+
+
 <Card  border="light" style={{
     width:350,
 }}>
@@ -233,20 +223,6 @@ function sponsors(){
 
 </Card.Body>
 </Card>
-<Card  border="light" style={{
-    width:350,
-}}>
-<Image variant="top" src={ozbekcpa}
-                    width={"%100"}
-                    height={250} />
-<Card.Body>
-<Card.Title>Özbekcpa</Card.Title>
-<Card.Text>
-</Card.Text>
-
-</Card.Body>
-</Card>
-    </Row><Row>
 
 <Card  border="light" style={{
     width:350,
@@ -261,6 +237,9 @@ function sponsors(){
 
 </Card.Body>
 </Card>
+
+    </Row>
+    <Row>
 
     </Row>
                 </Col>
