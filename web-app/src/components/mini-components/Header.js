@@ -10,6 +10,8 @@ import "../../style.css"
 
 function Header(){
     const logoImg = require("../../assets/logo.png");
+    const instagram = require("../../assets/instagram.png");
+    const linkedin = require("../../assets/linkedin.png");
     const logoSize = 40;
     const logoStyle = {
         color: "#10375c",
@@ -34,6 +36,7 @@ function Header(){
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about-us">About Us</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/members">Members</Nav.Link>
           <Nav.Link href="/sponsors">Sponsors</Nav.Link>
           <Nav.Link href="/support-us">Support Us</Nav.Link>
         </Nav>
@@ -55,13 +58,15 @@ function Header(){
       <Navbar.Collapse></Navbar.Collapse>          
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link href="https://www.instagram.com/fusionrobotics7682/?hl=tr">Instagram</Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/company/fusion-robotics-7682">LinkedIn</Nav.Link>
+          <Nav.Link href="https://www.instagram.com/fusionrobotics7682/?hl=tr"><img style={{
+            width: '30px'
+          }} src={instagram}></img></Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/company/fusion-robotics-7682"><img style={{
+            width: '30px'
+          }} src={linkedin}></img></Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      
     </Navbar>
- 
 </>
         
     )

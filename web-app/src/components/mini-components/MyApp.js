@@ -13,6 +13,7 @@ import About from "./../pages/About"
 import SupportUs from "./../pages/SupportUs"
 import Projects from "./../pages/Projects"
 import SponsorsPage from "../pages/Sponsors"
+import Members from "./../pages/Members"
 
 import {
     BrowserRouter as Router, 
@@ -41,6 +42,10 @@ function MyApp(){
 
             <Route path="/sponsors">
                 <SponsorsPage />
+            </Route>
+
+            <Route path="/members">
+                <Members />
             </Route>
 
             <Route path="/">

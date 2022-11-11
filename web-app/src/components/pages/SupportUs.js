@@ -28,17 +28,34 @@ function supportUs(){
         
       <Col xs={12} md={12}>
       <h1 style={{color:"#10375c"}}>
-      We need your support!
+        Desteğinize ihtiyacımız var!
       </h1>
       
       <p>
-      As Fusion Robotics, our sponsors are a very important factor for us. They also support us in meeting our basic needs such as material support, financial support and nutrition when we work hard in the workshop in the competitions we participate in and the projects we want to realize. In addition, our sponsors help us spread FIRST and STEM, and improve ourselves in engineering.
+      Fusion Robotics olarak sponsorlarımız bizim için çok önemli bir etkendir. Katıldığımız yarışmalarda ve gerçekleştirmek istediğimiz projelerde takımımıza malzeme desteği, maddi desteği ve atölyede sıkı çalışma içinde bulunduğumuz zamanlarda beslenme gibi temel ihtiyaçlarımızı karşılamakta da bize destek olmaktadırlar. Bunun yanı sıra sponsorlarımız FIRST’ü ve STEM’i yaymamızda, kendimizi mühendislikte geliştirmemizde yardımcı olmaktadırlar.
       </p>
      
       </Col>
     </Row>
+
+    <Row>
+        
+        <Col xs={12} md={12}>
+        <h1 style={{color:"#10375c"}}>
+          Destek Linklerimiz
+        </h1>
+        
+        <p>
+        -
+        </p>
+       
+        </Col>
+      </Row>
+    
       </Container>
       <br></br>
+      
+      
     </div>
 
     )
