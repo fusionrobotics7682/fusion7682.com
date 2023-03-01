@@ -23,6 +23,7 @@ const dağcan_duru = require("../../assets/fusion-member-photo/dağcan_duru.JPG"
 const aziz_kılıç = require("../../assets/fusion-member-photo/aziz_kılıç.jpg");
 const umut_tepe = require("../../assets/fusion-member-photo/umut_tepe.jpeg");
 const bayram_kuru = require("../../assets/fusion-member-photo/bayram_kuru.png");
+const burak_talha_sumer = require("../../assets/fusion-member-photo/burak_talha_sumer.jpg");
     
   const jumbotronStyles = {
     backgroundColor: "#10375c",
@@ -316,7 +317,7 @@ const bayram_kuru = require("../../assets/fusion-member-photo/bayram_kuru.png");
                 </Card>
                 <Card  border="light" style={{
                     width:270,}}>
-                    <Image variant="top" src={""}
+                    <Image variant="top" src={burak_talha_sumer}
                             width={"%100"}
                             height={"%100"}  />
                     <Card.Body>
